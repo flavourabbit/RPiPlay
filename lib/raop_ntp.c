@@ -189,7 +189,7 @@ static int
 raop_ntp_init_socket(raop_ntp_t *raop_ntp, int use_ipv6)
 {
     int tsock = -1;
-    unsigned short tport = 0;
+    unsigned short tport = 7011;
 
     assert(raop_ntp);
 
