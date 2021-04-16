@@ -503,7 +503,7 @@ static int
 raop_rtp_init_mirror_sockets(raop_rtp_mirror_t *raop_rtp_mirror, int use_ipv6)
 {
     int dsock = -1;
-    unsigned short dport = 0;
+    unsigned short dport = 7100;
 
     assert(raop_rtp_mirror);
 
