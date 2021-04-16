@@ -381,7 +381,7 @@ int start_server(std::vector<char> hw_addr, std::string name, bool debug_log,
     if (video_renderer) video_renderer->funcs->start(video_renderer);
     if (audio_renderer) audio_renderer->funcs->start(audio_renderer);
 
-    unsigned short port = 0;
+    unsigned short port = 7000;
     raop_start(raop, &port);
     raop_set_port(raop, port);
 
