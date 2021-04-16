@@ -228,7 +228,7 @@ static int
 raop_rtp_init_sockets(raop_rtp_t *raop_rtp, int use_ipv6, int use_udp)
 {
     int csock = -1, dsock = -1;
-    unsigned short cport = 0, dport = 0;
+    unsigned short cport = 6001, dport = 6000;
 
     assert(raop_rtp);
 
